@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda cocteles ufps</title>
+    <link rel="stylesheet" href="estilo1.css">
+</head>
+
+<body>
+    <header class="titulopagina"><a class="tituloindex" href="index.html"> Tienda cocteles</a>
+        <a class="logo" href="index.html">
+            <img src="img/coctel1.jpg" alt="compañia">
+            <h2">compañia cocteles</h2>
+        </a>
+        <nav class="infotitulo">
+            <a href="https://www.thecocktaildb.com/api.php" class="nav-link">Inicio</a>
+            <a href="https://www.thecocktaildb.com/about.php" class="nav-link">Sobre nosotros</a>
+            <a href="https://www.thecocktaildb.com/contact.php" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    
+    <nav>
+        <nav class="titulotipos">
+            <h1>Elija tipo de coctel</h1>
+        </nav>
+        <nav class="eleccioncoctel">
+            <form id="form" name="form" method="post">
+                <nav class="usuariotexto">
+                    <label for="codigo" class="form-label">Nombre:</label>
+                    <input type="text" name="codigo" id="codigo" placeholder="Digite su nombre" required
+                        class="control">
+                </nav>
+                <nav>
+                    <button class="button"> saludos usuario </button>
+                    <input class="button" type="submit" value="Coctel con alcohol" onclick="con_alcohol()">
+                    <input class="button" type="submit" value="Coctel sin alcohol" onclick="sin_alcohol()">
+                </nav>
+            </form>
+        </nav>
+    </nav>
+
+
+
+
+
+
+
+
+    <footer>
+        2022 Cocktailcompañia
+    </footer>
+<script src="control.js"></script>
+</body>
+
+</html>

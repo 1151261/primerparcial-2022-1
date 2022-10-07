@@ -1,0 +1,59 @@
+.titulopagina {
+    display: flex;
+    min-height: 70px;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-style: arial;
+    text-decoration-color: blue;
+    font-weight: bold;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+} 
+
+.tituloindex {
+    text-decoration: none;
+    color: blue;
+    justify-content: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.infotitulo a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.infotitulo a:hover{
+    color: white;
+}
+
+footer{
+    margin-bottom: auto;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    padding:10px;
+}
